@@ -1,0 +1,28 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 1em;
+    margin-bottom: 2em;
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    .logo {
+        font-weight: 500;  
+        font-size: 1.2rem;
+        text-transform: uppercase; 
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        li {
+            margin: 0 1em;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            &:hover {
+                color: blue;
+            }
+        }
+    }
+}

@@ -1,0 +1,5 @@
+Créer une page intitulée Jeu de Dés
+Créer un lien dans le navbar pour accéder à la page
+Sur la page : 
+- Avoir un bouton qui à chaque clic va générer 2 nombres aléatoires
+- Pour chacun des deux nombres générés afficher le dé correspondant
